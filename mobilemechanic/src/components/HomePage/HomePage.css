@@ -1,0 +1,78 @@
+table{
+    border: 10px solid green;
+    letter-spacing: 3px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}  
+
+.trow{
+    border: 5px solid green;
+    letter-spacing: 3px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.trow2{
+    border: 3px solid green;
+    letter-spacing: 3px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.tname{
+    border: 3px solid green;
+    letter-spacing: 3px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.addbutton{
+    border: 3px solid green;
+    letter-spacing: 3px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+ 
+  
+   
+    
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
