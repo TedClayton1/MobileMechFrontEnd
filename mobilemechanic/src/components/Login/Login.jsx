@@ -8,7 +8,7 @@ const Login = () => {
     const [username, setUserName] = useState("");
     const [password, setPassword] = useState("");
     const user = {};
-
+}
 const handleSubmit = (event) => {
     event.preventDefault();
     loginUser(username,password);
@@ -20,7 +20,7 @@ async function loginUser(userUsername, userPassword )  {
         username: userUsername,
         password: userPassword 
     };
-
+    
     let response = await axios.post('http://127.0.0.1:8000/api/auth/login/', payload);
 
 
@@ -30,7 +30,7 @@ async function loginUser(userUsername, userPassword )  {
     setUserName("");
     setPassword("");
     return localStorage;
-
+{    
     return (
         <div class="wrapper fadeInDown">
             <div id="formContent">
@@ -46,7 +46,7 @@ async function loginUser(userUsername, userPassword )  {
                       name="username"
                       value={username}
                       placeholder="Username"
-                      onChange={(event) -> setUserName(event.target.value)}
+                      onChange={(event) => setUserName(event.target.value)}
                     />
                     <input
                       type="password"
@@ -60,47 +60,10 @@ async function loginUser(userUsername, userPassword )  {
                     <input type="submit" class="fadeIn fourth" value="Log In" />
                   </form>                    
                 </div>
-              </div>
-               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
         </div>
-
-
-
-
-
-
-}
-
+        )
+};    
 function Login(props){
 
     const Login = () => {
@@ -129,7 +92,7 @@ function Login(props){
     
         // return { formValues, handleChange, handleSubmit };
 
-    return (
+    return {
         <div>
             <div>
             <center><h3> Please Enter Your Login Information  </h3></center>
@@ -140,12 +103,12 @@ function Login(props){
                     </form>
             </div>
         </div>
-    )
+    }
 }
 
 
 
 
-}
+
 
 export default Login; 

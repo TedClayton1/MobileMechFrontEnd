@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Create from './Create/Create';
 import HomePage from './HomePage/HomePage';
 import Login from './Login/Login';
 import ShoppingCart from './ShoppingCart/ShoppingCart';
